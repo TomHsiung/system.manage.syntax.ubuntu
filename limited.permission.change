@@ -1,0 +1,5 @@
+find /path -type f -exec chmod 600 {} \;
+# To change the permission of all files belong to directory /path to 600
+
+find /path -type d -exec chmod 700 {} \;
+# To change the permission of all subdirectories belong to directory /path to 700
