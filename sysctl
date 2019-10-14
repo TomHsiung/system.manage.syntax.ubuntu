@@ -1,0 +1,2 @@
+sysctl -p
+# To apply the settings stored in /etc/sysctl.conf immediately.
