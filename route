@@ -1,0 +1,5 @@
+# add a static route into routing table
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.1.20 dev eth0
+
+# delete a static route from routing table
+route del -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.1.20 dev eth0
