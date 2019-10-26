@@ -1,0 +1,8 @@
+# packets capture tool
+
+tcpdump -i eth0 -c 1000 -XX -w ~/captured.pcap
+
+# -i: to specific a network card
+# -c: to define how many packets to capture
+# -XX: to capture the packets both in HEX and ASCII format
+# -w: to save the inforamtion of captured packets into a file (@.pcap@ is for comptability of CocoaPacketAnalyzer)
