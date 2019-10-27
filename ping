@@ -1,0 +1,5 @@
+# define ICMP packet size and forbid IP fragmentation (macOS)
+ping -s 1472 -D x.x.x.x
+
+# define ICMP packet size and forbid IP fragmentation (Linux)
+ping -s 1472 -M do x.x.x.x
