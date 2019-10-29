@@ -1,0 +1,2 @@
+# show iptables rules, with rule number ahead
+iptables -t table -L chain --line-numbers
