@@ -1,0 +1,11 @@
+# show the cumulative traffic by month for ethernet card eth0
+vnstat -i eth0 -m
+
+# show the cumulative traffic by week for ethernet card eth1
+vnstat -i eth1 -w
+
+# show the cumulative traffic by day for ethernet card eth2
+vnstat -i eth2 -d
+
+# show the realtime traffic for ethernet card eth3
+vnstat -i eth3 -l
