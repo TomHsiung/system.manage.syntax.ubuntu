@@ -7,5 +7,5 @@ vnstat -i eth1 -w
 # show the cumulative traffic by day for ethernet card eth2
 vnstat -i eth2 -d
 
-# show the realtime traffic for ethernet card eth3
+# show the realtime traffic for ethernet card eth3 (exit by pressing CTRL+C)
 vnstat -i eth3 -l
