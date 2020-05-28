@@ -3,3 +3,18 @@ ip -detail -statistics -human-readable -color -4 addr show
 
 # list all ip(v6) addresses on this host, in addition to traffic statistics
 ip -detail -statistics -human-readable -color -6 addr show
+
+# add an static route into the kernel
+ip route add 192.168.5.0/24 via 10.10.10.1 dev eth0
+# equavilent to
+route add -net 192.168.5.0 netmask 255.255.255.0 gw 10.10.10.1 dev eth0
+
+# delete an static route from the kernel
+ip route del 192.168.5.0/24 via 10.10.10.1 dev eth0
+# equavilent to
+route del -net 192.168.5.0 netmask 255.255.255.0 gw 10.10.10.1 dev eth0
+
+# show kernel route table
+ip route list
+# equavilent to (but w/ different output)
+netstat -nr
