@@ -18,3 +18,6 @@ route del -net 192.168.5.0 netmask 255.255.255.0 gw 10.10.10.1 dev eth0
 ip -detail route list
 # equavilent to (but w/ different output)
 netstat -nr
+
+# show the arp cache
+ip -detail neigh
