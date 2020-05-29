@@ -10,3 +10,4 @@ A collection of commonly used and useful system management command for Ubuntu
 6) `route` is a tool to manage routing table(s).
 7) `vnstat` is a tool to display cumulative and realtime traffic.
 8) `ip` is an all-in-one tool for Linux network management.
+9) `ss` is an tool to list socket status.
