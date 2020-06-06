@@ -1,0 +1,8 @@
+# Add a repository
+add-apt-repository repository-name
+
+# Get update packages
+apt update
+
+# Execute update installation
+apt upgrade
