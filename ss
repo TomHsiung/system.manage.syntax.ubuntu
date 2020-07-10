@@ -6,3 +6,6 @@ ss --numeric --extended --options --processes --all --tcp
 
 # only display udp sockets
 ss --numeric --extended --options --processes --all --udp
+
+# Display both only tcp and upd sockets
+ss --numeric --extended --options --processes --all --tcp --udp
