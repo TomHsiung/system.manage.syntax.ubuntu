@@ -6,3 +6,6 @@ apt update
 
 # Execute update installation
 apt upgrade
+
+# Show package dependences
+apt-cache show pkg
