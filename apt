@@ -4,6 +4,9 @@ add-apt-repository repository-name
 # Get update packages
 apt update
 
+# Update a specific package
+apt --only-upgrade install package-name
+
 # Execute update installation
 apt upgrade
 
