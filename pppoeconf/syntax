@@ -1,0 +1,5 @@
+# Disconnect a link
+poff linkname
+
+# Connect a link
+pon linkname
