@@ -11,4 +11,7 @@ apt --only-upgrade install package-name
 apt upgrade
 
 # Show package dependences
-apt-cache show pkg
+apt-cache show pkg.name
+
+# Check if a package is installed
+atp-cache policy pkg.name
