@@ -1,0 +1,2 @@
+# Add the public key to remote host and create the authentication relationship (authorized_keys file)
+ssh-copy-id -i /path/to/public.key.file remotehost@1.1.1.1
