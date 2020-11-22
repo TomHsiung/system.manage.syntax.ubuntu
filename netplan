@@ -1,5 +1,4 @@
-# ethernet interface settings
-
+# ethernet interface settings eth0.yaml file
 network:
   version: 2
   renderer: networkd
@@ -12,3 +11,6 @@ network:
       addresses: [192.168.0.1/24]
       nameservers:
         addresses: [8.8.8.8,8.8.4.4]
+
+# Apply settings
+netplan apply
