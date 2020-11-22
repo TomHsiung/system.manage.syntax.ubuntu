@@ -1,0 +1,14 @@
+# ethernet interface settings
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      match:
+        macaddress: aa:bb:cc:00:11:22
+      mtu: 1500
+      dhcp4: no
+      addresses: [192.168.0.1/24]
+      nameservers:
+        addresses: [8.8.8.8,8.8.4.4]
