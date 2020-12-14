@@ -1,0 +1,8 @@
+# List all not-found system units, including services
+systemctl --state=not-found -all
+
+# Show the state of a service
+systemctl status servicename.service
+
+# Remove a serivce which has already been uninstalled
+systemctl disable servicename.service
