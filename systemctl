@@ -4,5 +4,5 @@ systemctl --state=not-found -all
 # Show the state of a service
 systemctl status servicename.service
 
-# Remove a serivce which has already been uninstalled
+# Remove a serivce which has already been uninstalled from the systemctl unit list
 systemctl disable servicename.service
