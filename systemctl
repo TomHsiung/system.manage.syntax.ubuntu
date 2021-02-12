@@ -6,3 +6,9 @@ systemctl status servicename.service
 
 # Remove a serivce which has already been uninstalled from the systemctl unit list
 systemctl disable servicename.service
+
+# Make a service start automatically on boot
+systemctl enable servicename.service
+
+# Enable and start the service at the same time
+systemctl enable --now servicename.service
