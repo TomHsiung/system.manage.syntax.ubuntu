@@ -14,3 +14,4 @@ A collection of commonly used and useful system management command for Ubuntu
 10) `apt` is the software manager for Ubuntu.
 11) `pppoeconf` is the subbrache for the package pppoeconf.
 12) `fdisk` is the a tool for disk management for linux.
+13) `axel` is an downloader under commandline environment.
