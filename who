@@ -1,0 +1,8 @@
+# List all established user loging with PID
+who -u
+
+# Examples
+username@hostname ~ % who -u
+username console  Mar 11 17:20  old  	   152
+username ttys000  Mar 11 17:29   .   	  1664
+username@hostname ~ % 
