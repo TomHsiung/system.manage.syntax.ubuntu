@@ -1,0 +1,4 @@
+# Interactive GUID partition table (GPT) manipulator
+
+# Procedures to a disk
+gdisk /dev/sda
