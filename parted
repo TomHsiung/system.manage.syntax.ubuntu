@@ -1,0 +1,2 @@
+# List the inforamtion of a partition
+parted /dev/sda print
