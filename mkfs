@@ -1,0 +1,2 @@
+# Formatting a partition into ext4 file system
+mkfs.ext4 /dev/sda5
