@@ -4,5 +4,6 @@ fdisk -l /dev/sdx
 #              then exit.  If no devices are given, those mentioned in
 #              /proc/partitions (if that file exists) are used.
 
-# Entering command mode to manage a disk
+# Entering command mode to manage a disk, including change the type of parition table (gpt vs mbr)
+
 fdisk /dev/sdx
