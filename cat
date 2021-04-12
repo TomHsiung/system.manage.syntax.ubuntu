@@ -1,2 +1,5 @@
 # Show the system welcome message from the records stored in file /var/run/motd.dynamic
 cat /var/run/motd.dynamic
+
+# Show CPU information, including current frequencies
+cat /proc/cpuinfo
