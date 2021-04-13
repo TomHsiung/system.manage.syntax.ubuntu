@@ -1,0 +1,2 @@
+# Mount a hard drive on boot, /etc/fstab
+/dev/sda /Disk ext4 defaults 0 0
