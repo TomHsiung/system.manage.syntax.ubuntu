@@ -59,3 +59,8 @@ Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
 GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
 Full documentation at: <http://www.gnu.org/software/coreutils/du>
 or available locally via: info '(coreutils) du invocation'
+
+# Examples
+
+# List gross size of the whole directory
+du -sh /Path
