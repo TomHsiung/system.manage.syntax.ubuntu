@@ -1,0 +1,3 @@
+# Resolve a domain via dnssec
+
+dig example.com +dnssec +multiline
