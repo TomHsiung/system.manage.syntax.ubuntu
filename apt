@@ -15,3 +15,6 @@ apt-cache show pkg.name
 
 # Check if a package is installed
 atp-cache policy pkg.name
+
+# Remove everything regarding the pakcage. Useful when you want to reinstall again
+apt purge --auto-remove pkg.name
