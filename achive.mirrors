@@ -1,0 +1,5 @@
+# URLs for all archive mirrors
+https://launchpad.net/ubuntu/+archivemirrors
+
+# file for configuration
+/etc/sources.list
