@@ -1,0 +1,2 @@
+# Display status of traffic for a specific network over a specific interface
+sudo iftop -i en0 -F 192.168.1.0/24
