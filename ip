@@ -4,6 +4,9 @@ ip -detail -statistics -human-readable -color -4 addr show
 # list all ip(v6) addresses on this host, in addition to traffic statistics
 ip -detail -statistics -human-readable -color -6 addr show
 
+# list all netowrk interfaces
+ip -detail link show
+
 # add an static route into the kernel
 ip route add 192.168.5.0/24 via 10.10.10.1 dev eth0
 # equavilent to
