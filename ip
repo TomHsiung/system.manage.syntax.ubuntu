@@ -24,3 +24,6 @@ netstat -nr
 
 # show the arp cache
 ip -detail neigh
+
+# show the route selected to a specific destination IP address
+ip route get X.X.X.X
