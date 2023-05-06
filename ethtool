@@ -1,0 +1,5 @@
+# ethtool - query or control network driver and hardware settings
+
+# Examples
+
+ethtool eth0
