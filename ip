@@ -22,6 +22,9 @@ ip -detail route list
 # equavilent to (but w/ different output)
 netstat -nr
 
+# show complete route table
+ip route show table all
+
 # show the arp cache
 ip -detail neigh
 
