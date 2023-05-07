@@ -1,5 +1,6 @@
 # Generate a key pair
 ssh-keygen -t rsa -b 4096
+ssh-keygen -t ecdsa -b 521 -f /path/to/private.key.pem
 
 # Error - WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 ssh-keygen -R "you server hostname or ip"
