@@ -1,0 +1,2 @@
+# capture 10000 packets on eth0 and derive to a file in the format of pcap
+tshark -i eth0 -w /path/captured.pcap -c 10000 -F pcap
