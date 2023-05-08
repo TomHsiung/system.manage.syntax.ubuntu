@@ -1,2 +1,5 @@
 # Add a user to sudo group
 usermod -aG sudo newuser
+
+# Add a user to a usergroup
+usermod -aG usergroup username
