@@ -1,0 +1,2 @@
+# Remove a user from a group
+deluser username groupname
