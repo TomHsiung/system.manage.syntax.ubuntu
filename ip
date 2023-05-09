@@ -22,11 +22,15 @@ ip -detail route list
 # equavilent to (but w/ different output)
 netstat -nr
 
-# show complete route table
+# show complete routes
 ip route show table all
+
+# show route tables
+ip rule show
 
 # show the arp cache
 ip -detail neigh
 
 # show the route selected to a specific destination IP address
 ip route get X.X.X.X
+
