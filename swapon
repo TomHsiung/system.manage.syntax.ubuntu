@@ -1,0 +1,2 @@
+# Display swap usage summary by device. Equivalent to cat /proc/swaps. This output format is DEPRECATED in favour of --show that provides better control on output data.
+swapon -s
