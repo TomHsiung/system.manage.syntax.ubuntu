@@ -1,6 +1,11 @@
 # Generate random numbers
+
+# Examples,
 shuf -n 9 -i 1-10
 
+shuf -n 20 -r -i 1-10
+
+/*
 DESCRIPTION         top
 
        Write a random permutation of the input lines to standard output.
@@ -35,3 +40,4 @@ DESCRIPTION         top
 
        --version
               output version information and exit
+*/
