@@ -1,0 +1,4 @@
+# disalbe aes128
+# edit /etc/ssh/sshd_config
+
+Ciphers -aes128*
