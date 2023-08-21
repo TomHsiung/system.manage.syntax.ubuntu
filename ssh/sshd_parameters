@@ -1,0 +1,3 @@
+sshd -T 
+
+# -T' Extended test mode. Check the validity of the configuration file, output the effective configuration to stdout and then exit. Optionally, Match rules may be applied by specifying the connection parameters using one or more -C options.
