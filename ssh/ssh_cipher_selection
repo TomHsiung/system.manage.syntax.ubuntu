@@ -1,0 +1,4 @@
+# Selects the cipher specification for encrypting the session.
+ssh -c aes256-ctr 192.168.0.1
+
+# -c cipher_spec
