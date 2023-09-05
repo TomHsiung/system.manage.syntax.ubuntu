@@ -1,0 +1,5 @@
+# Change permission recursively only for folders
+find sasuniviewer__94170__wx6__en__web__1 -type d -exec chmod 700 {} ";"
+
+# Change permission recursively only for files
+find sasuniviewer__94170__wx6__en__web__1 -type f -exec chmod 600 {} ";"
