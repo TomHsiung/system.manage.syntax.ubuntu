@@ -2,4 +2,4 @@
 systemd-resolve --statistics
 
 # Flush DNS caches
-systemd-DNS --flush-cache
+systemd-resolve --flush-cache
