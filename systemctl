@@ -15,3 +15,7 @@ systemctl enable servicename.service
 
 # Enable and start the service at the same time
 systemctl enable --now servicename.service
+
+# Update service list
+sudo systemctl daemon-reload
+sudo systemctl reset-failed
