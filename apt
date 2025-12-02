@@ -18,3 +18,6 @@ atp-cache policy pkg.name
 
 # Remove everything regarding the pakcage. Useful when you want to reinstall again
 apt purge --auto-remove pkg.name
+
+# Reinstall in case a mistakenly deleting critical files of a package
+apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" charon-systemd
