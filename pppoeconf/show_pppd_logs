@@ -1,0 +1,1 @@
+journalctl -t pppd -n 10
